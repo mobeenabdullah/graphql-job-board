@@ -1,1 +1,1 @@
-# graphql-job-board
+# GraphQL Job Board
