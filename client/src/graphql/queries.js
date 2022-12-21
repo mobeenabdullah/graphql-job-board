@@ -2,6 +2,17 @@ import { request, gql } from 'graphql-request'
 
 const GRAPHQL_URL = 'http://localhost:9000/graphql'
 
+export async function deleteJob(id) {
+  const query = gql`
+    mutation DeleteJobMutation($id: ID!) {
+      deleteJob(id: $id)
+    }
+  `
+
+  const variables = { id }
+  await request(GRAPHQL_URL, query, variables)
+}
+
 export async function createJob(input) {
   const query = gql`
     mutation CreateJobMutation($input: CreateJobInput!) {
