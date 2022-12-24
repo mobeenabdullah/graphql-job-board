@@ -16,7 +16,8 @@ export async function updateJob(input) {
   `
 
   const variables = { input }
-  const { job } = await request(GRAPHQL_URL, query, variables)
+  const headers = { Authorization: 'Bearer ' + getAccessToken() }
+  const { job } = await request(GRAPHQL_URL, query, variables, headers)
   return job
 }
 
@@ -28,7 +29,8 @@ export async function deleteJob(id) {
   `
 
   const variables = { id }
-  await request(GRAPHQL_URL, query, variables)
+  const headers = { Authorization: 'Bearer ' + getAccessToken() }
+  await request(GRAPHQL_URL, query, variables, headers)
 }
 
 export async function createJob(input) {
