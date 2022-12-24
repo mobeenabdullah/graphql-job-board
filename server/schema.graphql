@@ -27,7 +27,6 @@ type Job {
 input CreateJobInput {
   title: String!
   description: String
-  companyId: ID!
 }
 
 input UpdateJobInput {
