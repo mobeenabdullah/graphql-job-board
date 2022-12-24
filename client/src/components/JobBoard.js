@@ -10,7 +10,10 @@ function JobBoard() {
     // getJobs().then((jobs) => setJobs(jobs)) <--- same as below
     getJobs()
       .then(setJobs)
-      .catch((err) => setError(true))
+      .catch((err) => {
+        console.error(err)
+        setError(err)
+      })
   }, [])
 
   if (error) {
