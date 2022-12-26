@@ -116,6 +116,6 @@ export async function getJobs() {
   `
   const {
     data: { jobs },
-  } = await client.query({ query })
+  } = await client.query({ query, fetchPolicy: 'network-only' })
   return jobs
 }
