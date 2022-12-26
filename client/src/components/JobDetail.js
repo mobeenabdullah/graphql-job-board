@@ -6,15 +6,11 @@ function JobDetail() {
   const { jobId } = useParams()
   const { job, loading, error } = useJob(jobId)
 
-  if (loading) {
-    return <p>Loading...</p>
-  }
-
   if (error) {
     return <p>Something went wrong</p>
   }
 
-  if (!job) {
+  if (loading) {
     return <p>Loading...</p>
   }
 
