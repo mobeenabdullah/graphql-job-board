@@ -16,53 +16,5 @@
     "companyId": "wvdB54Gqbdp_NZTXK9Tue",
     "title": "Full-Stack Developer",
     "description": "We are looking for a Full-Stack Developer familiar with Node.js, Express, and React."
-  },
-  {
-    "id": "uTWp9XlUnYxccZ_46o7ya",
-    "title": "Job 1",
-    "companyId": "pVbRRBQtMVw6lUAkj1k43",
-    "description": "Test Description"
-  },
-  {
-    "id": "qMnv9V-CqsRU5cJ4Ipt6V",
-    "title": "Job 3",
-    "description": "JD 3",
-    "companyId": "wvdB54Gqbdp_NZTXK9Tue"
-  },
-  {
-    "id": "c2chGq-56BVkryVBpbbAk",
-    "title": "Job 5",
-    "description": "JD 5",
-    "companyId": "wvdB54Gqbdp_NZTXK9Tue"
-  },
-  {
-    "id": "gbTIJ2YqK4hmbfiCWH3QZ",
-    "title": "Job 6 v3",
-    "description": "Updated JD",
-    "companyId": "wvdB54Gqbdp_NZTXK9Tue"
-  },
-  {
-    "id": "yC-C2IZXUB9lEaiqQAYkB",
-    "title": "Job 6",
-    "description": "",
-    "companyId": "wvdB54Gqbdp_NZTXK9Tue"
-  },
-  {
-    "id": "XF2XESSpEdOBsTogd5cov",
-    "title": "Job 7",
-    "description": "JD 3",
-    "companyId": "wvdB54Gqbdp_NZTXK9Tue"
-  },
-  {
-    "id": "TO5rMvfHojIEYhLIOS3jo",
-    "title": "New Job from Apollo Client",
-    "description": "test desc",
-    "companyId": "pVbRRBQtMVw6lUAkj1k43"
-  },
-  {
-    "id": "C0EkhK8t8QH9h_d0lwsuW",
-    "title": "aaa",
-    "description": "",
-    "companyId": "pVbRRBQtMVw6lUAkj1k43"
   }
 ]

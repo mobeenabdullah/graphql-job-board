@@ -86,6 +86,15 @@ export async function deleteJob(id) {
   await request(GRAPHQL_URL, query, variables, headers)
 }
 
+export const CREATE_JOB_MUTATION = gql`
+  mutation CreateJobMutation($input: CreateJobInput!) {
+    job: createJob(input: $input) {
+      ...JobDetail
+    }
+  }
+  ${JOB_DETAIL_FRAGMENT}
+`
+
 export async function createJob(input) {
   const mutation = gql`
     mutation CreateJobMutation($input: CreateJobInput!) {
