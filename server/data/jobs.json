@@ -52,5 +52,17 @@
     "title": "Job 7",
     "description": "JD 3",
     "companyId": "wvdB54Gqbdp_NZTXK9Tue"
+  },
+  {
+    "id": "TO5rMvfHojIEYhLIOS3jo",
+    "title": "New Job from Apollo Client",
+    "description": "test desc",
+    "companyId": "pVbRRBQtMVw6lUAkj1k43"
+  },
+  {
+    "id": "C0EkhK8t8QH9h_d0lwsuW",
+    "title": "aaa",
+    "description": "",
+    "companyId": "pVbRRBQtMVw6lUAkj1k43"
   }
 ]
